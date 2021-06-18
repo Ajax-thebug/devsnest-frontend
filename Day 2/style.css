@@ -1,16 +1,16 @@
 *{
-    
-    margin-top: 30px;
-    margin-right: 30px;
+    @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;700&display=swap');
+    /* margin-top: 30px;
+    margin-right: 30px; */
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #BDBEA9;
+    color: #213120;
 }
-body{
-    margin-left: 30px;
-    margin-top: 30px;
-    border: 4px solid grey;
-}
+/* body{
+    border: 2px solid grey;
+} */
 p{
     line-height: 1em;
 }
@@ -18,7 +18,49 @@ li{
     margin-left: 20px;
 }
 
+#tittle{
+    color: teal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: auto;
+    /* max-width: 60%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #box{
-    border-right: 3px solid grey;
-    margin
+    border: 3px solid #04724D;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 50%;
+    width: 50%;
+    justify-content: space-between;
+}
+
+/* hr{
+    height: 500px;
+    margin: 0;
+    width: 2px;
+    background-color: black;
+    
+
+} */
+
+#right-col {
+margin-right: auto;
+padding-left: 30px;
+border-left: 2px solid #56876D;
+width: 45%;
+}
+
+#left-col{
+margin-left: auto;
+padding-right: 10px;
+width: 45%;
 }
